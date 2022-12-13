@@ -8,7 +8,9 @@ const Resume = () => {
         <p>
           <strong>Fullstack Developer at TrustArc/Nymity</strong>&nbsp;
           <i>Toronto - Canada</i>&nbsp;
-          <a href="https://trustarc.com/">www.trustarc.com</a>
+          <a href="https://trustarc.com/" rel="noreferrer" target="_blank">
+            www.trustarc.com
+          </a>
           <br />
           <small>Jun 2018 - Ongoing</small>
         </p>
@@ -36,7 +38,11 @@ const Resume = () => {
         <p>
           <strong>Fullstack Developer at Evolution in DesignZ,</strong>&nbsp;
           <i>Toronto - Canada,</i>&nbsp;
-          <a href="https://evolutionindesignz.com/">
+          <a
+            href="https://evolutionindesignz.com/"
+            rel="noreferrer"
+            target="_blank"
+          >
             www.evolutionindesignz.com
           </a>
           <br />
@@ -72,7 +78,9 @@ const Resume = () => {
         <p>
           <strong>Fullstack Developer at LTM Group,</strong>&nbsp;
           <i>Sao Paulo - Brazil,</i>&nbsp;
-          <a href="http://www.grupoltm.com.br">www.grupoltm.com.br</a>
+          <a href="http://www.grupoltm.com.br" rel="noreferrer" target="_blank">
+            www.grupoltm.com.br
+          </a>
           <br />
           <small>
             November 2010 - September 2015 - Senior Programmer and Development
@@ -103,29 +111,61 @@ const Resume = () => {
         </small>
         <ul className="project-list">
           <li>
-            <a href="https://www.caixamaisvantagens.com.br/">
+            <a
+              href="https://www.caixamaisvantagens.com.br/"
+              rel="noreferrer"
+              target="_blank"
+            >
               Caixa Mais Vantagens
             </a>
           </li>
           <li>
-            <a href="https://republica.corinthians.com.br/">Corinthians</a>
+            <a
+              href="https://republica.corinthians.com.br/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Corinthians
+            </a>
           </li>
           <li>
-            <a href="https://www.santanderesfera.com.br/">Santander Esfera</a>
+            <a
+              href="https://www.santanderesfera.com.br/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Santander Esfera
+            </a>
           </li>
           <li>
-            <a href="https://www.resgatefacil.com.br/">
+            <a
+              href="https://www.resgatefacil.com.br/"
+              rel="noreferrer"
+              target="_blank"
+            >
               Shell Credito Combustivel
             </a>
           </li>
           <li>
-            <a href="https://programadefidelidade.hsbc.com.br/">HSBC Rewards</a>
+            <a
+              href="https://programadefidelidade.hsbc.com.br/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              HSBC Rewards
+            </a>
           </li>
         </ul>
         <p>
           <strong>Fullstack Developer at Stefanini,</strong>&nbsp;
           <i>Sao Paulo - Brazil,</i>&nbsp;
-          <a href="http://www.stefanini.com.br">www.stefanini.com.br</a>
+          <a
+            href="http://www.stefanini.com.br"
+            rel="noreferrer"
+            target="_blank"
+          >
+            www.stefanini.com.br
+          </a>
           <br />
           <small>December 2009 - October 2010 - Senior Programmer</small>
         </p>
@@ -147,7 +187,9 @@ const Resume = () => {
         </small>
         <ul className="project-list">
           <li>
-            <a href="https://www.rabobank.com">RaboBank</a>
+            <a href="https://www.rabobank.com" rel="noreferrer" target="_blank">
+              RaboBank
+            </a>
           </li>
           <li>
             <a href="#band">Band (intranet)</a>
@@ -156,7 +198,13 @@ const Resume = () => {
         <p>
           <strong>Fullstack Developer at Rapp,</strong>&nbsp;
           <i>Sao Paulo - Brazil,</i>&nbsp;
-          <a href="http://www.rappbrasil.com.br">www.rappbrasil.com.br</a>
+          <a
+            href="http://www.rappbrasil.com.br"
+            rel="noreferrer"
+            target="_blank"
+          >
+            www.rappbrasil.com.br
+          </a>
           <br />
           <small>
             November 2007 - November 2009 - Senior Programmer and Development
@@ -178,12 +226,22 @@ const Resume = () => {
         </small>
         <ul className="project-list">
           <li>
-            <a href="https://clubedasestrelas.avon.com/">
+            <a
+              href="https://clubedasestrelas.avon.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
               Avon Clube das Estrelas
             </a>
           </li>
           <li>
-            <a href="http://premium.vw.com.br/">Volkswagen Premium</a>
+            <a
+              href="http://premium.vw.com.br/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Volkswagen Premium
+            </a>
           </li>
           <li>
             <a href="#terra">Terra (intranet)</a>
@@ -195,7 +253,13 @@ const Resume = () => {
         <p>
           <strong>Fullstack Developer at Concremat Setepla,</strong>&nbsp;
           <i>Sao Paulo - Brazil,</i>&nbsp;
-          <a href="http://www.concremat.com.br">www.concremat.com.br</a>
+          <a
+            href="http://www.concremat.com.br"
+            rel="noreferrer"
+            target="_blank"
+          >
+            www.concremat.com.br
+          </a>
           <br />
           <small>January 2005 - October 2007 - Senior Programmer</small>
         </p>
@@ -219,7 +283,13 @@ const Resume = () => {
         </small>
         <ul className="project-list">
           <li>
-            <a href="http://www.artesp.sp.gov.br/">ARTESP</a>
+            <a
+              href="http://www.artesp.sp.gov.br/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              ARTESP
+            </a>
           </li>
         </ul>
         <p>
@@ -228,7 +298,9 @@ const Resume = () => {
           </strong>
           &nbsp;
           <i>Sao Paulo - Brazil,</i>&nbsp;
-          <a href="http://www.ipt.br">www.ipt.br</a>
+          <a href="http://www.ipt.br" rel="noreferrer" target="_blank">
+            www.ipt.br
+          </a>
           <br />
           <small>
             October 2002 - December 2004 - Development Leader and Technology
@@ -253,13 +325,17 @@ const Resume = () => {
         </small>
         <ul className="project-list">
           <li>
-            <a href="http://www.incor.usp.br">INCOR</a>
+            <a href="http://www.incor.usp.br" rel="noreferrer" target="_blank">
+              INCOR
+            </a>
           </li>
         </ul>
         <p>
           <strong>Fullstack Developer at VM2 Technology &amp; Design,</strong>
           &nbsp; <i>Sao Paulo - Brazil,</i>&nbsp;
-          <a href="http://www.vm2.com.br">www.vm2.com.br</a>
+          <a href="http://www.vm2.com.br" rel="noreferrer" target="_blank">
+            www.vm2.com.br
+          </a>
           <br />
           <small>Setembro 1998 - Outubro 2002 - Programador Pleno</small>
         </p>
@@ -283,16 +359,28 @@ const Resume = () => {
         </small>
         <ul className="project-list">
           <li>
-            <a href="http://www.dnb.com.br">D&amp;B</a>
+            <a href="http://www.dnb.com.br" rel="noreferrer" target="_blank">
+              D&amp;B
+            </a>
           </li>
           <li>
-            <a href="http://www.kpmg.com.br">KPMG</a>
+            <a href="http://www.kpmg.com.br" rel="noreferrer" target="_blank">
+              KPMG
+            </a>
           </li>
           <li>
-            <a href="http://www.batavo.com.br">Batavo</a>
+            <a href="http://www.batavo.com.br" rel="noreferrer" target="_blank">
+              Batavo
+            </a>
           </li>
           <li>
-            <a href="http://www.bicworld.com/pt/homepage/homepage/">BiC</a>
+            <a
+              href="http://www.bicworld.com/pt/homepage/homepage/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              BiC
+            </a>
           </li>
         </ul>
       </div>
