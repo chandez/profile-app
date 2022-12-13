@@ -1,0 +1,146 @@
+body {
+  background-color: #343434;
+}
+
+.root {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  grid-template-columns: 100%;
+}
+
+.main-header {
+  align-items: center;
+  background-color: #272727;
+  display: flex;
+  text-align: center;
+  padding: 20px 250px;
+  margin-bottom: 20px;
+
+  .logo {
+    a {
+      color: white;
+      font-weight: 600;
+      text-decoration: none;
+      white-space: nowrap;
+
+      :first-child {
+        display: block;
+        font-size: 3rem;
+      }
+    }
+  }
+
+  .nav {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+    a {
+      color: #aaa;
+      font-weight: 800;
+      letter-spacing: 2px;
+      padding: 20px 15px;
+      position: relative;
+      text-decoration: none;
+      text-transform: uppercase;
+
+      &:after,
+      &:before {
+        transition: all 0.5s;
+      }
+
+      &:hover,
+      &.active {
+        color: #555;
+
+        &:after {
+          width: 100%;
+        }
+      }
+
+      &:after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 0%;
+        content: ".";
+        color: transparent;
+        background: #ff0808;
+        height: 1px;
+      }
+    }
+  }
+}
+
+.main {
+  display: flex;
+  margin: 0px auto;
+  padding: 0px 250px;
+  gap: 8px;
+
+  .social-content {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    color: red;
+  }
+}
+
+.title {
+  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 1180px) {
+  .main-header {
+    padding: 20px 160px;
+  }
+
+  .main {
+    padding: 0 160px;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .main-header {
+    padding: 20px 80px;
+  }
+
+  .main {
+    padding: 0 80px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .main-header {
+    padding: 20px 30px;
+  }
+
+  .main {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .main-header {
+    flex-direction: column;
+    min-width: 350px;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  .main {
+    min-width: 350px;
+  }
+}
