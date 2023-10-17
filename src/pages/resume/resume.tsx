@@ -68,28 +68,9 @@ const Resume = () => {
             </blockquote>
           </div>
           <div className="job-content">
-            <h2>Fullstack Developer at Evolution in DesignZ</h2>
-            <p>
-              <i>Toronto, Canada | Oct 2015 - Sep 2016</i>
-            </p>
-            <blockquote>
-              <p>
-                Created hybrid web and mobile apps with AngularJS, IONIC, HTML
-                and CSS. Covering the application using e2e testing (Protractor
-                and Selenium).
-              </p>
-              <p>
-                Created REST Services with C#, .Net Framework 4.5 and Web API.
-                Involved in writing queries and Stored Procedures in SQL Server
-                and MySql. Developed and maintained a reusable components
-                repository.
-              </p>
-            </blockquote>
-          </div>
-          <div className="job-content">
             <h2>Fullstack Developer at LTM Group</h2>
             <p>
-              <i>Sao Paulo, Brazil | Nov 2010 - Sep 2015</i>
+              <i>Sao Paulo, Brazil | Nov 2010 - Sep 2016</i>
             </p>
             <blockquote>
               <p>
