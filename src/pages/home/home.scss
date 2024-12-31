@@ -1,12 +1,34 @@
-@use "../../scss/colors.scss";
+@use "../../scss/colors.scss" as *;
 
 body {
   overflow-y: scroll;
 }
 
 .panel-border-left {
-  border-left: 2px solid colors.$background-red-300;
-  margin-left: 2px;
-  max-width: 530px;
-  padding: 10px;
+  border-left: 2px solid $background-red-300;
+  margin-left: 7px;
+  // max-width: 760px;
+  padding: 10px 20px 10px 31px;
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  .panel-content {
+    padding: 20px 30px;
+    background-color: $background-charcoal-300;
+    position: relative;
+    border-radius: 6px;
+    margin-bottom: 10px;
+
+    ::before {
+      border: 10px solid transparent;
+      border-left: 0;
+      border-right-color: $background-charcoal-300;
+      content: "";
+      left: -10px;
+      position: absolute;
+      top: 10%;
+    }
+  }
 }

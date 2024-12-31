@@ -1,7 +1,7 @@
-@use "./scss/colors.scss";
+@use "./scss/colors" as *;
 
 body {
-  background-color: colors.$background-charcoal-400;
+  background-color: $background-charcoal-400;
 }
 
 .root {
@@ -11,13 +11,20 @@ body {
   grid-template-columns: 100%;
 }
 
-.main-header {
-  align-items: center;
-  background-color: colors.$background-charcoal-600;
+header {
+  background-color: $background-charcoal-600;
   display: flex;
-  text-align: center;
-  padding: 20px 250px;
+  justify-content: center;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 20px;
+  max-width: 920px;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
 
   .logo {
     a {
@@ -39,7 +46,7 @@ body {
     align-items: center;
 
     a {
-      color: colors.$text-gray-100;
+      color: $text-gray-100;
       font-weight: 800;
       letter-spacing: 2px;
       padding: 20px 15px;
@@ -54,7 +61,7 @@ body {
 
       &:hover,
       &.active {
-        color: colors.$text-gray-100;
+        color: $text-gray-100;
 
         &:after {
           width: 100%;
@@ -70,18 +77,23 @@ body {
         width: 0%;
         content: ".";
         color: transparent;
-        background: colors.$background-red-300;
+        background: $background-red-300;
         height: 1px;
       }
     }
   }
 }
 
-.main {
+main {
   display: flex;
-  margin: 0px auto;
-  padding: 0px 250px;
-  gap: 8px;
+  justify-content: center;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 920px;
+  width: 100%;
 
   .social-content {
     width: 40px;
@@ -90,7 +102,7 @@ body {
     left: 40px;
     right: auto;
     z-index: 10;
-    color: colors.$background-red-300;
+    color: $background-red-300;
   }
 }
 
@@ -99,66 +111,54 @@ body {
 }
 
 .title {
-  text-shadow: 0px 4px 4px colors.$text-gray-400;
+  text-shadow: 0px 4px 4px $text-gray-400;
 }
 
 .spacer {
   flex-grow: 1;
 }
 
-@media screen and (max-width: 1180px) {
-  .main-header {
-    padding: 20px 160px;
-  }
-
-  .main {
-    padding: 0 160px;
-  }
-}
-
-@media screen and (max-width: 1060px) {
-  .main-header {
-    padding: 20px 80px;
-  }
-
-  .main {
-    padding: 0 80px;
-  }
-
-  .right-content {
-    min-width: 20px;
-  }
-}
-
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 960px) {
   .main-header {
     padding: 20px 30px;
   }
 
-  .main {
+  .main-content {
     padding: 0 30px;
   }
 
-  .right-content {
-    min-width: 0;
+  .panel-border-left p {
+    font-size: 1.2rem;
   }
 }
 
-@media screen and (max-width: 720px) {
-  .main-header {
-    flex-direction: column;
-    min-width: 350px;
-  }
-
+@media screen and (max-width: 630px) {
   h1 {
     font-size: 2rem !important;
   }
 
-  .main {
+  .main-header .nav {
+    justify-content: center;
+  }
+
+  .main-header {
+    flex-direction: column;
+    min-width: 380px;
+  }
+
+  .main-content {
     min-width: 350px;
   }
 
   .right-content {
     min-width: 0;
+  }
+
+  .panel-border-left p {
+    font-size: 1rem;
+  }
+
+  .social {
+    margin-top: 64px;
   }
 }

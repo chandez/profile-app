@@ -1,4 +1,4 @@
-@use "./scss/colors.scss";
+@use "./scss/colors.scss" as *;
 
 /* css reset */
 *,
@@ -55,7 +55,7 @@ svg {
 /* Set defaults */
 
 body {
-  color: colors.$text-gray-100;
+  color: $text-gray-100;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
     "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
     "Helvetica Neue", sans-serif;
@@ -74,7 +74,7 @@ p {
 }
 
 a {
-  color: colors.$text-pink-200;
+  color: $text-pink-200;
   text-decoration: none;
 
   &:hover {
