@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import { Link, NavLink, Outlet } from "react-router-dom";
+import { Link, NavLink, Outlet } from "react-router";
 import Contact from "../../pages/contact/contact";
 
 const Header = () => {

@@ -1,4 +1,4 @@
-@import "./scss/colors.scss";
+@use "./scss/colors.scss";
 
 /* css reset */
 *,
@@ -55,10 +55,10 @@ svg {
 /* Set defaults */
 
 body {
-  color: $text-gray-100;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  color: colors.$text-gray-100;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   line-height: 1.5;
   text-rendering: optimizeSpeed;
 }
@@ -74,7 +74,7 @@ p {
 }
 
 a {
-  color: $text-pink-200;
+  color: colors.$text-pink-200;
   text-decoration: none;
 
   &:hover {

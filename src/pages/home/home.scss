@@ -1,7 +1,11 @@
-@import "../../scss/colors.scss";
+@use "../../scss/colors.scss";
+
+body {
+  overflow-y: scroll;
+}
 
 .panel-border-left {
-  border-left: 2px solid $background-red-300;
+  border-left: 2px solid colors.$background-red-300;
   margin-left: 2px;
   max-width: 530px;
   padding: 10px;

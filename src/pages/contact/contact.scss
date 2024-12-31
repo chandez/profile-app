@@ -1,4 +1,4 @@
-@import "../../scss/colors.scss";
+@use "../../scss/colors.scss";
 
 .social {
   display: flex;
@@ -9,13 +9,13 @@
   margin-top: 82px;
 
   svg {
-    fill: $background-gray-400;
+    fill: colors.$background-gray-400;
     min-width: 20px;
   }
 
   li a:hover {
     svg {
-      fill: $text-pink-600;
+      fill: colors.$text-pink-600;
     }
   }
 }
