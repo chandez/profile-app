@@ -124,30 +124,6 @@ const Resume = () => {
               </p>
             </blockquote>
           </div>
-          <div className="job-content">
-            <h2>Fullstack Developer at Concremat Setepla</h2>
-            <p>
-              <i>Sao Paulo, Brazil | Jan 2005 - Oct 2007</i>
-            </p>
-            <blockquote>
-              <p>
-                Analyzed user specifications for workability, completeness and
-                business flow
-              </p>
-              <p>
-                Participated in defining system design, architecture and task
-                estimation
-              </p>
-              <p>
-                Developed Web Services to send and receive information with
-                government
-              </p>
-              <p>
-                Designed databases and wrote Queries, Stored Procedures in SQL
-                Server
-              </p>
-            </blockquote>
-          </div>
         </div>
       </div>
     </section>
