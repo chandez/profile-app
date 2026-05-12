@@ -1,9 +1,5 @@
 @use "../../scss/colors.scss" as *;
 
-body {
-  overflow-y: scroll;
-}
-
 .panel-border-left {
   border-left: 2px solid $background-red-300;
   margin-left: 7px;
@@ -29,6 +25,18 @@ body {
       left: -10px;
       position: absolute;
       top: 10%;
+    }
+
+    ::after {
+      background: $background-charcoal-400;
+      border: 4px solid $background-red-300;
+      border-radius: 50%;
+      content: "";
+      height: 16px;
+      left: -39px;
+      position: absolute;
+      top: 10%;
+      width: 16px;
     }
   }
 }

@@ -42,7 +42,7 @@ const Contact = () => {
 
       <li>
         <a
-          aria-label="GitHub"
+          aria-label="Twitter"
           href="https://twitter.com/chandez"
           rel="noreferrer"
           target="_blank"
